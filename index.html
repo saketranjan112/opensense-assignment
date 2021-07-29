@@ -33,7 +33,7 @@
                 <option value="">Select</option>
                 <option value="91">India : +91 </option>
             </select>
-            <input type="number" name="phone" id="phone" required/>
+            <input type="number" name="phone" id="phone" onblur="check()" required/>
         </div>
         
         <div class="form-row">
@@ -108,6 +108,13 @@
 
          function show(){
              document.getElementById("optional").style.display = "flex";
+         }
+        
+        function check(){
+             let num = document.getElementById("phone").value;
+             if(num>9999999999 || num<6666666666){
+                 alert("Invalid Phone Number")
+             }
          }
     </script>
 </body>
