@@ -6,6 +6,6 @@ Download and copy folder to the localhost working directory of you system. (e.g 
 Start your PHP server.
 Goto localhost/phpmyadmin and create database 'job_application' and table 'submissions' using the create.sql file.
 
-Goto localhost/opensense-assignment and fill the form. Press Enter.
+Goto localhost/opensense-assignment and fill the form. Click on the submit button.
 
 Refresh the table submissions and check whether the data is inserted or not.
